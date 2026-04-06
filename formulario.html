@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Completo</title>
+</head>
+<body>
+
+<form action="" method="post"> 
+
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre" id="nombre">
+    <br><br>
+
+    <label for="edad">Edad: </label>
+    <input type="number" name="edad" id="edad" placeholder="Ingrese solo números">
+    <br><br>
+
+    <label for="contrasena">Contraseña:</label>
+    <input type="password" name="contrasena" id="contrasena">
+    <br><br>
+
+    <label for="fecha">Fecha:</label>
+    <input type="date" name="fecha" id="fecha">
+    <br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" required>
+    <br><br>
+
+    <label for="telefono">Teléfono:</label>
+    <input type="tel" name="telefono" id="telefono">
+    <br><br>
+
+    <label for="mensaje">Textarea:</label>
+    <textarea name="mensaje" id="mensaje" cols="50" rows="3"></textarea>
+    <br><br>
+
+    <label for="color">Seleccione:</label>
+    <select name="color" id="color">
+        <option value="azul">Azul</option>
+        <option value="rojo">Rojo</option>
+        <option value="verde">Verde</option>
+    </select>
+    <br><br>
+
+    <!-- RADIO BUTTONS -->
+    <label>Radio:</label><br>
+    <input type="radio" name="btn_prueba" id="html" value="html"> HTML <br>
+    <input type="radio" name="btn_prueba" id="css" value="css"> CSS <br>
+    <input type="radio" name="btn_prueba" id="js" value="javascript"> JAVASCRIPT <br>
+    <br><br>
+
+    <!-- CHECKBOX -->
+    <label>Check:</label><br>
+    <input type="checkbox" name="check_html" id="check_html" value="html"> HTML <br>
+    <input type="checkbox" name="check_css" id="check_css" value="css"> CSS <br>
+    <input type="checkbox" name="check_js" id="check_js" value="javascript"> JAVASCRIPT <br>
+    <br><br>
+
+    <label for="">Subir Archivo</label>
+    <input type="file" name="" id="">
+    <br><br>
+
+    <label for="">color</label>
+    <input type="color" name="" id="">
+    <br><br>
+
+    <label for="">Placeholder</label>
+    <input type="file" name="" id="" Placeholder="Ingresa solo numeros">
+    <br><br>
+
+    <label for="">Maxlength</label>
+    <input type="text" name="" id="" maxlength="5">
+    <br><br>
+
+    <label for="">Max y Min</label>
+    <input type="number" name="" id="" max="10" min="0">
+    <br><br>
+
+    <label for="">Resetear</label>
+    <input type="reset">
+ 
+
+    <input type="submit" value="Enviar">
+
+</form>
+
+</body>
+</html>
